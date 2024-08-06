@@ -1,0 +1,275 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width
+{
+    max-width: 1400px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+
+/* 
+ NAVIGATION BAR  */
+ 
+.navbar
+{
+    position: fixed;
+    background-color: crimson;
+    width: 100%;
+    padding: 30px ;
+    /*just to make it appear above all other elemnts*/
+    z-index: 500;   
+}
+.navbar .max-width
+{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar .logo a
+{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li
+{
+    display: inline-block;
+}
+.navbar .menu li a
+{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+  /* HOME */
+
+.home
+{
+    display: flex;
+    background: url("1.jfif") no-repeat center;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width
+{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1
+{
+    font-size: 27px;
+}
+.home .home-content .text-2
+{
+    font-size: 75px;
+    font-weight: 600;
+   
+}
+.home .home-content a
+{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+
+
+
+section .title
+{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+section
+{
+    padding: 100px 0;
+}
+
+
+/* ABOUT */
+
+.about .title
+{
+    font-weight: bold;
+}
+.about .about-content
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.about .about-content .right
+{
+    width: 55%;
+}
+.about .about-content .right .text
+{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.about .about-content .right a
+{
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    padding: 20px ;
+    margin-top: 32px;
+    border-radius: 6px;
+}
+
+
+
+/* PROJECT */
+
+.projects
+{
+    color: white;
+    background: black;
+}
+.projects .serv-content .card
+{
+    color: aliceblue;
+    
+    max-width: 1000px;
+    background: #8b7b7b;
+    text-align: center;
+    border-radius: 40px;
+    padding: 20px 25px;
+    margin:8px;
+}
+.projects .serv-content
+{
+    padding-left: 100px;
+}
+
+
+
+/* EDUCATION */
+
+.cont{
+    display: flex;
+}
+.education .title
+{
+    font-weight: bold;
+}
+.education .left-edu
+{
+    text-align: center;
+    color: white;
+    background-color: crimson;
+    width: 60px;
+    height: 350px;
+    font-size: 15px;
+}
+.education .right-edu
+{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+
+
+
+/* SKILLS */
+
+.skills{
+    background-color: rgb(0, 0, 0);
+}
+.skills .title{
+    color: white;
+}
+.skills .carousel .card
+{
+    background: #222;
+    border-radius: 20px;
+    padding: 35px 35px;
+    text-align: center;
+    color: white;
+}
+.skills .carousel .card .text
+{
+    font-size: 25px;
+    margin: 10px ;
+}
+.skills .carousel .card img
+{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 10px solid crimson;
+}
+.skills .carousel .card .box
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.skills .carousel .card:hover img
+{
+    border-color: white;
+}
+#swipe-text
+{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(207, 58, 68);
+}
+
+
+
+
+/* CONTACT STARTS HERE*/
+
+.contact .title{
+    font-weight: bold;
+}
+.contact .right form .field input 
+{
+    width: 100%;
+    padding: 10px;
+}
+.contact .right form 
+{
+    border: 2px solid rgb(21, 11, 43);
+    border-radius: 15px;
+    padding: 25px;
+    font-size: 17px;
+}
+.width
+{
+    max-width: 800px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.contact .button button
+{
+    width: 170px;
+    height: 50px;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+}
